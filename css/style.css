@@ -74,3 +74,40 @@ h2 {
 
     }
 }
+
+/* collection page*/
+.collection-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.everydays-collection {
+    font-size: 24px;
+    text-align: left;
+    font-weight: 100;
+    line-height: 2;
+    margin: 30px 40px 0;
+}
+.everydays-text-collection {
+    text-align: left;
+    margin-left: 40px;
+    font-family: var(--font-heading);
+}
+
+.sweatshirt-collection {
+    font-size: 24px;
+    text-align: left;
+    font-weight: 100;
+    line-height: 2;
+    margin: 100px 50px 0 40px 
+}
+.sweatshirts-text-collection {
+    text-align: left;
+    margin-left: 40px;
+    font-family: var(--font-heading);
+}
+
+.everydays {
+    width: 300px;
+}
+
