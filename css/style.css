@@ -111,3 +111,22 @@ h2 {
     width: 300px;
 }
 
+/* blog */
+
+.title {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+.description {
+    font-size: 16px;
+    font-weight: 100;
+    text-align: left;
+}
+
+.container-content {
+    background: #ececec;
+    padding: 30px;
+    border-radius: 4px;
+}
