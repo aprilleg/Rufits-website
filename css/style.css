@@ -71,7 +71,9 @@ h2 {
         text-align: center;
         margin: 0 20px;
         padding: 15px;
-
+    }
+    nav a {
+        font-size: 14px;
     }
 }
 
@@ -137,19 +139,30 @@ h2 {
     margin: 0;
 }
 
-.temporary-blog-link {
-    font-family: var(--font-heading);
-    text-decoration: none;
-    font-size: 24px;
-    display: flex;
-    justify-content: center;
-    color: #0D0D0D;
+
+/* nav bar*/
+
+.logo {
+    max-height: 40px;
 }
-.temporary-contact-link {
-    font-family: var(--font-heading);
-    text-decoration: none;
-    font-size: 24px;
-    display: flex;
-    justify-content: center;
-    color: #0D0D0D;
+nav {
+    padding: 15px 0;
 }
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 36px;
+    margin-left: 15px;
+}
+ nav a {
+    text-decoration: none;
+    color: #808080;
+    transition: all 100ms ease-in-out;
+ }
+ nav a:hover , nav li.active a {
+    color: #0D0D0D;
+ }
