@@ -166,3 +166,30 @@ nav li {
  nav a:hover , nav li.active a {
     color: #0D0D0D;
  }
+
+footer {
+    margin-top: 100px;
+}
+
+footer ul {
+    padding: 0;
+    margin: 0;
+}
+
+footer li {
+    display: inline;
+    margin-left: 20px;
+    list-style: none;
+}
+footer a {
+    text-decoration: none;
+    color: #0D0D0D;
+}
+
+.social-link a{
+    padding: 0 10px;
+    font-size: 24px;
+    margin: 0 10px;
+    color: #0D0D0D;
+    margin-bottom: 10px;
+}
